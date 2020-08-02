@@ -1,0 +1,4 @@
+<input id="content" type="text" placeholder="what you have to do..." #content>
+<!-- sa zadnjim svojstvom content def smo jednu sablonsku , tj automatski cemo doci do dom svojstva kojim
+je predstavljen ovaj dokument -->
+<span id="add-btn" (click)="this.itemsService.addItem(content.value)">Add</span>
